@@ -1,0 +1,80 @@
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  object-fit: contain;
+  min-width: 100%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  filter: blur(4px);
+  transform: scale(1.1);
+}
+
+.glass {
+  background: linear-gradient(135deg, rgb(0, 0, 0), rgb(41, 41, 41));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 30px;
+  border: 1px solid;
+  box-shadow: 0 8px 32px 0 rgb(0, 0, 0);
+}
+
+.container {
+  width: 550px;
+  height: 550px;
+  margin: 20px auto;
+}
+
+.g1lass {
+  background: linear-gradient(135deg, rgb(0, 0, 0), rgb(43, 43, 43));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 30px;
+  border: 1px solid;
+}
+
+.c1ontainer {
+  width: 500px;
+  height: 150px;
+  margin: 20px auto;
+  bottom: 50%;
+  top: 50%;
+}
+
+.container:hover {
+  box-shadow: 0 8px 32px 0 rgb(93, 0, 255);
+}
+
+img {
+  padding: 1px;
+  width: 135px;
+  height: 130px;
+  border-radius: 100%;
+  margin-left: 37%;
+}
+
+h1 {
+  color: azure;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-size: 40px;
+
+}
+
+h2 {color: azure;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-size: 30px;
+}
+
+
